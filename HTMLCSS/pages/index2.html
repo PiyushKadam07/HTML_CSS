@@ -1,0 +1,106 @@
+<!-- task 3-->
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-compatible"  content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, inital-scale=1.0">
+        <title> HTML CSS - 3 </title>
+    </head>
+
+    <style>
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            background-color: #f10f0f;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .leftsidebar {
+            background-color: #edf10f;
+            margin: 0;
+            text-align: center;
+            width: 25%;
+        }
+
+        .mainContainer {
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+        }
+
+        .main {
+            background-color: #0f31f1;
+            width: 50%;
+        }
+
+        .firstarticle, .secondarticle, .thirdarticle {
+            background-color: #0fe9f1;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .rightsidebar {
+            background-color: #f10fde;
+            margin: 0;
+            text-align: center;
+            width: 25%;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            background-color: #0ff135;
+            justify-content: center;
+            margin: 0;
+        }
+
+    </style>
+
+    <body>
+        <div class = "navbar">
+            <h1>HEADER - Sample Flexbox Example</h1>
+        </div>
+
+        <div class = "mainContainer">
+            <sidebar class = "leftsidebar" >
+                <h3>Left Side Bar</h3>
+            </sidebar>
+
+            <div class = "main">
+                <div class = "firstarticle">
+                    <h1>First article</h1>
+                    <p>Working together to keep the tech Employability of Engineers alive and  accessible, so Tech companies worldwide can get contributors
+                       and creators for Technology Solutions. We believe this act of human  collaboration across an employability platform is essential to 
+                       individual growth and our collective future.</p>
+                </div>
+                <div class = "secondarticle">
+                    <h1>Second article</h1>
+                    <p>Working together to keep the tech Employability of Engineers alive and  accessible, so Tech companies worldwide can get contributors
+                       and creators for Technology Solutions. We believe this act of human  collaboration across an employability platform is essential to 
+                       individual growth and our collective future.</p>
+                </div>
+                <div class = "thirdarticle">
+                    <h1>Third article</h1>
+                    <p>Working together to keep the tech Employability of Engineers alive and  accessible, so Tech companies worldwide can get contributors
+                        and creators for Technology Solutions. We believe this act of human  collaboration across an employability platform is essential to 
+                        individual growth and our collective future.</p>
+                    <p>Working together to keep the tech Employability of Engineers alive and  accessible, so Tech companies worldwide can get contributors
+                       and creators for Technology Solutions. We believe this act of human  collaboration across an employability platform is essential to 
+                       individual growth and our collective future.</p>                    
+                </div>
+            </div>
+
+            <sidebar class = "rightsidebar" >
+                <h3>Right Side Bar</h3>
+            </sidebar>
+        </div>
+
+        <div class = "footer">
+            <h3>Footer</h3>
+        </div>
+    </body>
+
+    </html>
